@@ -7,7 +7,7 @@ export class MyService implements IMyService {
     private baseURL!: string;
 
     public sayHello(name: string): void {
-        console.log(`Hello from the real service, ${name}!`)
-        console.log('baseURL is ', this.baseURL)
+        console.log(`Hello from the real service, ${name}!`);
+        console.log('baseURL is ', this.baseURL);
     }
 }

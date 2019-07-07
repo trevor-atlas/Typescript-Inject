@@ -6,9 +6,9 @@ class App {
     private myService!: IMyService;
 
     public main() {
-        this.myService.sayHello('internet')
+        this.myService.sayHello('internet');
     }
 
 }
 
-new App().main()
+new App().main();
