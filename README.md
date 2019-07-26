@@ -10,6 +10,6 @@ To run these examples:
 4. `npm run prod`
     - you should see the console output:
     ```text
-    Hello from the mock service, internet!
-    baseURL is  stage.myapi.com
+    Hello from the real service, internet!
+    baseURL is  prod.myapi.com
     ```
